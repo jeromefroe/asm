@@ -1,5 +1,6 @@
 NOSPLIT,$0-16
-  NOSPLIT = 4
+
+NOSPLIT = 4
 (For TEXT items.) Don't insert the preamble to check if the stack must be split. The frame for the routine, plus anything it calls, must fit in the spare space at the top of the stack segment. Used to protect routines such as the stack splitting code itself.
 
 16 means called with 16 bytes of arguments
