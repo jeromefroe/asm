@@ -6,3 +6,5 @@ NOSPLIT = 4
 16 means called with 16 bytes of arguments
 
 0 is stack frame size, ie how many more bytes you need past those passed as arguments
+
+go's AX register and friends are equivalent to the RAX register and friends in x86 assmebly
